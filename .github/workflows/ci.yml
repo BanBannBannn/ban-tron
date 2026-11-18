@@ -45,7 +45,7 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - uses: supabase/setup-cli@v1
+      - uses: supabase/setup-cli@v3
         with:
           version: 2.95.4
       - name: Start Supabase local (áp dụng migrations)
