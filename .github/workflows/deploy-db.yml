@@ -32,7 +32,7 @@ jobs:
             echo "Chưa cấu hình secret Supabase → bỏ qua deploy DB."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         if: steps.check.outputs.skip != 'true'
       - uses: supabase/setup-cli@v1
         if: steps.check.outputs.skip != 'true'
