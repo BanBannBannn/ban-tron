@@ -32,19 +32,19 @@
     "lucide-react": "^1.74.0",
     "next": "16.4.6",
     "perfect-freehand": "^1.2.3",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "sonner": "^2.0.8"
   },
   "devDependencies": {
-    "@playwright/test": "1.58",
-    "@tailwindcss/turbopack": "4.3.3",
+    "@playwright/test": "1.65",
+    "@tailwindcss/turbopack": "4.3.5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
-    "tailwindcss": "4.3.3",
+    "tailwindcss": "4.3.5",
     "typescript": "^5"
   }
 }
