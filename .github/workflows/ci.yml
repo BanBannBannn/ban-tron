@@ -47,7 +47,7 @@ jobs:
 
       - uses: supabase/setup-cli@v1
         with:
-          version: latest
+          version: 2.95.4
       - name: Start Supabase local (áp dụng migrations)
         run: supabase start -x studio,imgproxy,edge-runtime,logflare,vector,supavisor
 

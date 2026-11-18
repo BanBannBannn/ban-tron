@@ -4,8 +4,8 @@ import { LegalPage, Section } from "@/components/legal/LegalPage";
 export const metadata: Metadata = { title: "Quyền riêng tư & bảo mật" };
 
 // Mẫu chính sách. Hãy điền thông tin đơn vị vận hành và nhờ người có chuyên môn pháp lý rà soát trước khi phát hành.
-const OPERATOR = "[Tên cá nhân / đơn vị vận hành]";
-const CONTACT = "[email liên hệ]";
+const OPERATOR = "Trần Văn Gia Bân";
+const CONTACT = "tranvangiaban@gmail.com";
 
 export default function PrivacyPage() {
   return (
