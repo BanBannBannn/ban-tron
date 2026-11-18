@@ -34,7 +34,7 @@ jobs:
           fi
       - uses: actions/checkout@v4
         if: steps.check.outputs.skip != 'true'
-      - uses: supabase/setup-cli@v1
+      - uses: supabase/setup-cli@v3
         if: steps.check.outputs.skip != 'true'
         with:
           version: 2.95.4
