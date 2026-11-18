@@ -88,7 +88,7 @@ export function Home() {
     <main className="relative min-h-dvh overflow-hidden bg-canvas">
       <div className="board-grid pointer-events-none absolute inset-0 opacity-70 [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_75%)]" />
 
-      <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
+      <header className="relative z-20 mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
         <div className="flex items-center gap-2.5">
           <Logo size={34} />
           <span className="text-[17px] font-bold tracking-tight text-ink">Bàn Tròn</span>
